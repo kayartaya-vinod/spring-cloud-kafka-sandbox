@@ -1,3 +1,9 @@
+# Spring cloud stream + kafka binder
+
+
+Download `Apache Kafka` from here: https://kafka.apache.org/downloads
+
+
 ### Step #1: Start zookeeper server at port 2181
 
 Linux/MacOS Command: 
