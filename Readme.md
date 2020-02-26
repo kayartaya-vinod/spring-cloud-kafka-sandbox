@@ -24,10 +24,16 @@ bin\zookeeper-server-start.bat config/zookeeper.properties
 ### Step #2: Start kafka server
 
 Linux/MacOS Command: 
+
+```
 bin/kafka-server-start.sh config/server.properties
+```
 
 Windows Command: 
+
+```
 bin/kafka-server-start.bat config/server.properties
+```
 
 ### Step #3: Create a topic
 
