@@ -7,10 +7,16 @@ Download `Apache Kafka` from here: https://kafka.apache.org/downloads
 ### Step #1: Start zookeeper server at port 2181
 
 Linux/MacOS Command: 
+
+```
 bin/zookeeper-server-start.sh config/zookeeper.properties
+```
 
 Windows Command: 
+
+```
 bin/zookeeper-server-start.bat config/zookeeper.properties
+```
 
 ### Step #2: Start kafka server
 
