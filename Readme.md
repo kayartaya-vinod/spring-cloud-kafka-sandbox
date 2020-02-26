@@ -1,7 +1,10 @@
 # Spring cloud stream + kafka binder
 
 
-Download `Apache Kafka` from here: https://kafka.apache.org/downloads
+* Download `Apache Kafka` from here: https://kafka.apache.org/downloads
+* Unzip the downloaded to zip file
+* Open a terminal (command prompt in Windows) and `cd` into Kafka's home directory
+* You may issue the following commands in different terminals, as zookeeper and kafka are servers
 
 
 ### Step #1: Start zookeeper server at port 2181
@@ -9,13 +12,13 @@ Download `Apache Kafka` from here: https://kafka.apache.org/downloads
 Linux/MacOS Command: 
 
 ```
-bin/zookeeper-server-start.sh config/zookeeper.properties
+./bin/zookeeper-server-start.sh config/zookeeper.properties
 ```
 
 Windows Command: 
 
 ```
-bin/zookeeper-server-start.bat config/zookeeper.properties
+bin\zookeeper-server-start.bat config/zookeeper.properties
 ```
 
 ### Step #2: Start kafka server
